@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #23323a;
+  font-family: 'Alata', sans-serif;
+}
+
+.card-container {
+  background-color: #b02319;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+}
+
+.container {
+  margin: 20px;
+  height: 142px;
+}
+
+.links div {
+
+  margin-bottom: 5px;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.links a{
+  display: flex;
+  flex-direction: column;
+  color: #200412;
+}
+
+.links a:hover {
+  color: white;
+}
+
+
+img {
+  height: 300px;
+}
